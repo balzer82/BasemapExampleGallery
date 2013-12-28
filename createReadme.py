@@ -29,7 +29,7 @@ for path, dirs, files in os.walk('.'):
         if ext not in imgExts:
             continue
         else:
-            maps.append('![Projection](https://github.com/balzer82/BasemapExampleGallery/blob/master/' + fileName + '?raw=true')
+            maps.append('![Projection](https://github.com/balzer82/BasemapExampleGallery/blob/master/' + fileName + '?raw=true)')
             
 mapstablestring='\n'.join(maps)
 f.write(mapstablestring)
