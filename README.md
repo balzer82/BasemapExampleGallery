@@ -6,7 +6,18 @@ Showing an example for some Matplotlib Basemap Projections
 
 ## What is it for?
 
-You can take a look at the [Basemap Documentation](http://matplotlib.org/basemap/users/), but it is not an overview. This is:
+You can take a look at the [Basemap Documentation](http://matplotlib.org/basemap/users/), but it is not an good overview.
+The following maps are created with
+```
+drawcountries()
+drawparallels()
+drawmeridians()
+shadedrelief()
+
+```
+for the same area (Europe). Some projections automatically render the whole world. Some projections are missing because they need extra parameters, which are not suitable within a loop for all other.
+
+## Gallery
 ![Projection](https://github.com/balzer82/BasemapExampleGallery/blob/master/Basemap-aea-Projection.png?raw=true)
 ![Projection](https://github.com/balzer82/BasemapExampleGallery/blob/master/Basemap-aeqd-Projection.png?raw=true)
 ![Projection](https://github.com/balzer82/BasemapExampleGallery/blob/master/Basemap-cass-Projection.png?raw=true)
@@ -31,3 +42,6 @@ You can take a look at the [Basemap Documentation](http://matplotlib.org/basemap
 ![Projection](https://github.com/balzer82/BasemapExampleGallery/blob/master/Basemap-stere-Projection.png?raw=true)
 ![Projection](https://github.com/balzer82/BasemapExampleGallery/blob/master/Basemap-tmerc-Projection.png?raw=true)
 ![Projection](https://github.com/balzer82/BasemapExampleGallery/blob/master/BasemapRenderTimes.png?raw=true)
+## HTML file
+
+Is in the Git.

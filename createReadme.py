@@ -17,7 +17,18 @@ Showing an example for some Matplotlib Basemap Projections
 
 ## What is it for?
 
-You can take a look at the [Basemap Documentation](http://matplotlib.org/basemap/users/), but it is not an overview. This is:
+You can take a look at the [Basemap Documentation](http://matplotlib.org/basemap/users/), but it is not an good overview.
+The following maps are created with
+```
+drawcountries()
+drawparallels()
+drawmeridians()
+shadedrelief()
+
+```
+for the same area (Europe). Some projections automatically render the whole world. Some projections are missing because they need extra parameters, which are not suitable within a loop for all other.
+
+## Gallery
 """
 f.write(prestring)
 
