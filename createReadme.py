@@ -44,6 +44,13 @@ for path, dirs, files in os.walk('.'):
             
 mapstablestring='\n'.join(maps)
 f.write(mapstablestring)
+
+poststring ="""
+## HTML file
+
+Is in the Git.
+"""
+f.write(poststring)
 f.close()
 
 # <codecell>
