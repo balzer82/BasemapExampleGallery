@@ -88,13 +88,13 @@ for path, dirs, files in os.walk('.'):
         else:
             maps.append('![Projection](https://github.com/balzer82/BasemapExampleGallery/blob/master/' + fileName + '?raw=true)')
             
-mapstablestring='\n'.join(maps)
-f.write(mapstablestring[-1:])
+mapstablestring='\n'.join(maps[:-1])
+f.write(mapstablestring)
 
 poststring ="""
 ## HTML file
 
-Is in the Git.
+Is in the Git and can be used for the own webspace to show a gallery.
 """
 f.write(poststring)
 f.close()
